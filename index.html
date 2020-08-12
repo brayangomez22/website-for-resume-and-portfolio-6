@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Site</title>
+    <link rel="icon" href="img/white-logo.png">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!------- FONT AWESOME -------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+    <!--==============================================
+     CDN OF BOOTSTRAP 
+    ================================================-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <!--==============================================
+     HEADER SECTION 
+    ================================================-->
+
+    <section id="header">
+        <div class="container text-center">
+            <div class="user-box">
+                <img src="img/brayan.jpg" loading="lazy" alt="">
+                <h1>Brayan Gómez</h1>
+                <p>Freelance Full Stack Developer </p>
+            </div>
+        </div>
+        <div class="scroll-btn">
+            <div class="scroll-bar"><a href="#about"><span></span></a></div>
+        </div>
+    </section>
+
+    <!--==============================================
+     USER INFO SECTION 
+    ================================================-->
+
+    <section id="user-info">
+        <div class="nav-bar">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#"><img src="img/white-logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#top">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">ABOUT ME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#resume">RESUME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#services">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!------- ABOUT -------->
+        <div class="about container" id="about">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <img src="img/brayan.jpg" class="profile-img" alt="">
+                </div>
+                <div class="col-md-6">
+                    <h3>WHO AM I ?</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio accusantium voluptatibus animi aut beatae, perspiciatis et excepturi similique atque a eos voluptatem cum fuga dolore, culpa in dolorum odit quae ducimus. </p>
+
+                    <div class="skills-bar">
+                        <p>HTML</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 90%;">90%</div>
+                        </div>
+
+                        <p>CSS</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 80%;">80%</div>
+                        </div>
+
+                        <p>Javascript</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 70%;">70%</div>
+                        </div>
+
+                        <p>PHP</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 75%;">75%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------- SOCIAL ICONS -------->
+        <div class="social-icons">
+            <ul>
+                <a href="#">
+                    <li><i class="fab fa-linkedin-in"></i></li>
+                </a>
+                <a href="#">
+                    <li><i class="fab fa-twitter"></i></li>
+                </a>
+                <a href="#">
+                    <li><i class="fab fa-medium"></i></li>
+                </a>
+                <a href="#">
+                    <li><i class="fab fa-github"></i></li>
+                </a>
+                <a href="#">
+                    <li><i class="fab fa-behance"></i></li>
+                </a>
+            </ul>
+        </div>
+
+        <!------- RESUME -------->
+        <div class="resume" id="resume">
+            <div class="container">
+                <h1 class="section-title mt-3">Education & Experiences</h1>
+                <div class="time-line">
+                    <div class="block">
+                    <h4>2018 - 2019</h4>
+                    <h3>Software engineering</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At expedita maiores ullam voluptatum a nulla aperiam enim eveniet adipisci ipsum.</p>
+                    </div>
+                
+                    <div class="block">
+                    <h4>2018 - 2019</h4>
+                    <h3>Software engineering</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At expedita maiores ullam voluptatum a nulla aperiam enim eveniet adipisci ipsum.</p>
+                    </div>
+                
+                    <div class="block">
+                    <h4>2018 - 2019</h4>
+                    <h3>Software engineering</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At expedita maiores ullam voluptatum a nulla aperiam enim eveniet adipisci ipsum.</p>
+                    </div>
+                
+                    <div class="block">
+                    <h4>2018 - 2019</h4>
+                    <h3>Software engineering</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At expedita maiores ullam voluptatum a nulla aperiam enim eveniet adipisci ipsum.</p>
+                    </div>
+                
+                    <div class="block">
+                    <h4>2018 - 2019</h4>
+                    <h3>Software engineering</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At expedita maiores ullam voluptatum a nulla aperiam enim eveniet adipisci ipsum.</p>
+                    </div>
+                
+                    <div class="block">
+                    <h4>2018 - 2019</h4>
+                    <h3>Software engineering</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At expedita maiores ullam voluptatum a nulla aperiam enim eveniet adipisci ipsum.</p>
+                    </div>
+                </div>  
+            </div> 
+        </div>
+
+        <!------- SERVICES -------->
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="text-center">My Offered Services</h1>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur. <br> Lorem ipsum dolor sit amet.</p>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="services-box">
+                            <i class="icon fa fa-rocket"></i> <span>Graphics</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus a eos magnam eum exercitationem labore nulla optio aut repellat dolores!</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="services-box">
+                            <i class="icon fas fa-database"></i> <span>Manage Databases</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus a eos magnam eum exercitationem labore nulla optio aut repellat dolores!</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="services-box">
+                            <i class="icon fa fa-laptop"></i> <span>Design</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus a eos magnam eum exercitationem labore nulla optio aut repellat dolores!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------- CONTACT -------->
+        <div class="contact" id="contact">
+            <div class="container text-center">
+                <h1>Contact Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur. <br> Lorem ipsum dolor sit amet.</p>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <i class="fa fa-phone"></i>
+                        <p>+57 3013932979</p>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="fa fa-envelope"></i>
+                        <p>elbrayan@gmail.com</p>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="fa fa-laptop"></i>
+                        <p>www.elbrayan.net</p>
+                    </div>
+                </div>
+
+                <button type="button" class="btn btn-primary"><i class="fa fa-download"></i>Resume</button>
+                <button type="button" class="btn btn-primary"><i class="fa fa-rocket"></i>Hire Me</button>
+            </div>
+
+            <div class="footer text-center">
+                <p>&copy; 2020 | Created & Designed By Brayan</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
