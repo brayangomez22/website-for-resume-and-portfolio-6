@@ -143,7 +143,6 @@ section{
 
 .about{
     padding-top: 100px;
-    margin-bottom: -130px;
 }
 
 .profile-img{
@@ -171,7 +170,7 @@ section{
 /*=============================================*/
 
 .resume{
-    margin-top: -50px;
+    margin-top: 50px;
 }
 
 .section-title{
@@ -386,6 +385,22 @@ section{
     padding-left: 30px;
     width: 80px;
     transition: 1s;
+}
+
+.goTop{
+  position: fixed;
+  z-index: 999;
+  bottom: 40px;
+  right: 40px;
+  width: 40px;
+  height: 40px;
+  background-color: #48dbfb;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  display: none;
 }
 
 /*==============================================
